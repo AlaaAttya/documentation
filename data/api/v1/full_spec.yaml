@@ -20872,6 +20872,14 @@ paths:
       tags:
       - Dashboards
       x-codegen-request-body-name: body
+      x-given:
+        shared_dashboard:
+          parameters:
+          - name: body
+            value: "{\n  \"dashboard_id\": \"{{ dashboard.id }}\",\n  \"dashboard_type\":
+              \"custom_timeboard\",\n  \"share_type\": \"open\",\n  \"global_time\":
+              {\n    \"live_span\": \"1h\"\n  }\n}"
+          step: there is a valid "shared_dashboard" in the system
       x-menu-order: 8
       x-undo:
         operationId: DeletePublicDashboard

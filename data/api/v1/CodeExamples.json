@@ -307,6 +307,13 @@
       "description": "Create a new timeseries widget with ci_tests data source"
     }
   ],
+  "CreatePublicDashboard": [
+    {
+      "group": "dashboards",
+      "suffix": "",
+      "description": "Create a shared dashboard returns \"OK\" response"
+    }
+  ],
   "DeleteDashboards": [
     {
       "group": "dashboards",
